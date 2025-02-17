@@ -8,13 +8,15 @@
 #
 # launch with: source /home/jvliegen/Desktop/temp/ch1/scripts/tcl/vivado_proj.tcl
 ################################################################################
+#"/home/jvliegen/Documents/courses/KULeuven/sem8_HWSWCD/vivado/"
+#"/home/jvliegen/Desktop/temp/ch1"
 
 set pname "hwswcd_chapter_1_example"
-set path "/home/jvliegen/Documents/courses/KULeuven/sem8_HWSWCD/vivado/"
-set srcpath "/home/jvliegen/Desktop/temp/ch1"
+set path "C:/Users/evens/Desktop/school/2024_2025/sem2/hwsw" 
+set srcpath "C:/Users/evens/Desktop/school/2024_2025/sem2/gitMap/hwsw/ch1" 
 
 set part "xc7vx485tffg1761-2"
-set board "xilinx.com:vc707:part0:1.3"
+set board "xc7z020clg400-1"
 
 # delete older versions
 cd $path
